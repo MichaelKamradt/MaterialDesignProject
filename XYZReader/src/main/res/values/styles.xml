@@ -25,4 +25,80 @@
         <item name="android:statusBarColor">@android:color/transparent</item>
     </style>
 
+    <style name="Theme.AppCompat.Photo">
+        <item name="android:background">@color/photo_placeholder</item>
+        <item name="android:scaleType">centerCrop</item>
+        <item name="android:layout_width">match_parent</item>
+    </style>
+
+    <style name="CardView.Base">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_marginRight">@dimen/card_view_margin</item>
+        <item name="android:layout_marginLeft">@dimen/card_view_margin</item>
+        <item name="android:layout_marginBottom">@dimen/card_view_margin</item>
+        <item name="android:layout_marginTop">@dimen/card_view_margin</item>
+        <item name="android:clickable">true</item>
+        <item name="android:focusable">true</item>
+        <item name="android:foreground">?selectableItemBackground</item>
+    </style>
+
+    <style name="CardView.Article.Title" parent="TextAppearance.AppCompat.Subhead">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:paddingLeft">@dimen/list_item_text_view_padding</item>
+        <item name="android:paddingRight">@dimen/list_item_text_view_padding</item>
+        <item name="android:paddingTop">@dimen/list_item_text_view_padding</item>
+        <item name="android:paddingBottom">@dimen/list_item_text_view_padding</item>
+        <item name="android:textColor">@color/dkgray</item>
+        <item name="android:maxLines">4</item>
+        <item name="android:ellipsize">end</item>
+    </style>
+
+    <style name="CardView.Article.Subtitle" parent="TextAppearance.AppCompat.Body1">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:paddingLeft">@dimen/list_item_text_view_padding</item>
+        <item name="android:paddingRight">@dimen/list_item_text_view_padding</item>
+        <item name="android:paddingBottom">@dimen/list_item_text_view_padding</item>
+        <item name="android:textColor">@color/gray</item>
+        <item name="android:maxLines">2</item>
+        <item name="android:ellipsize">end</item>
+    </style>
+
+    <style name="Theme.AppCompat.ArticleMetaBar">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_gravity">bottom</item>
+        <item name="android:layout_marginBottom">@dimen/detail_metabar_vert_padding</item>
+        <item name="android:background">@color/theme_primary_dark</item>
+        <item name="android:orientation">vertical</item>
+        <item name="android:paddingBottom">@dimen/detail_metabar_vert_padding</item>
+        <item name="android:paddingTop">@dimen/detail_metabar_vert_padding</item>
+        <item name="android:paddingRight">@dimen/article_body_side_margins</item>
+        <item name="android:paddingLeft">@dimen/article_body_side_margins</item>
+    </style>
+
+    <style name="Theme.AppCompat.ArticleDetail">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:paddingBottom">@dimen/detail_metabar_title_bottom_padding</item>
+        <item name="android:textColor">@color/ltgray</item>
+        <item name="android:textSize">@dimen/detail_title_text_size</item>
+        <item name="android:lineSpacingMultiplier">0.9</item>
+        <item name="android:fontFamily">sans-serif-condensed</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+
+    <style name="Theme.AppCompat.Fab">
+        <item name="android:stateListAnimator">@anim/fab_state_list_anim</item>
+        <item name="android:layout_gravity">bottom|end</item>
+        <item name="android:background">@drawable/add_fab_background</item>
+        <item name="android:layout_marginRight">@dimen/fab_margin</item>
+        <item name="android:layout_marginBottom">@dimen/fab_margin</item>
+        <item name="android:elevation">@dimen/fab_elevation</item>
+        <item name="android:layout_width">@dimen/floating_action_button_size</item>
+        <item name="android:layout_height">@dimen/floating_action_button_size</item>
+    </style>
+
 </resources>
