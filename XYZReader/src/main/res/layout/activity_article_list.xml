@@ -47,9 +47,11 @@
             android:background="@color/theme_lt"/>
     </android.support.v4.widget.SwipeRefreshLayout>
 
-    <ImageButton android:id="@+id/refresh_fab"
+    <android.support.design.widget.FloatingActionButton
+        android:id="@+id/refresh_fab"
         style="@style/Theme.AppCompat.Fab"
+        android:contentDescription="@string/action_refresh"
         android:src="@drawable/ic_refresh"
-        android:contentDescription="@string/action_refresh" />
+        app:backgroundTint="@color/theme_primary" />
 
 </android.support.design.widget.CoordinatorLayout>

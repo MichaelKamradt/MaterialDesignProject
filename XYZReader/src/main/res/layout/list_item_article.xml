@@ -7,11 +7,15 @@
         android:layout_height="wrap_content"
         android:orientation="vertical">
 
-        <!--suppress AndroidLintContentDescription -->
-        <com.example.xyzreader.ui.DynamicHeightNetworkImageView
-            android:id="@+id/thumbnail"
+        <ImageView
+            android:id="@+id/thumbnail_imageview"
             android:layout_height="@dimen/photo_list_item_max_depth"
             style="@style/Theme.AppCompat.Photo"/>
+        <!--&lt;!&ndash;suppress AndroidLintContentDescription &ndash;&gt;-->
+        <!--<com.example.xyzreader.ui.DynamicHeightNetworkImageView-->
+            <!--android:id="@+id/thumbnail"-->
+            <!--android:layout_height="@dimen/photo_list_item_max_depth"-->
+            <!--style="@style/Theme.AppCompat.Photo"/>-->
 
         <TextView
             android:id="@+id/article_title"

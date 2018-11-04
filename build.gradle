@@ -20,9 +20,9 @@ allprojects {
     }
 
     ext {
-        androidSupportVersion = "25.3.0"
+        androidSupportVersion = "27.0.0"
 
-    }
+   }
 }
 
 task clean(type: Delete) {
