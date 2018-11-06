@@ -8,9 +8,9 @@
     <dimen name="article_body_side_margins">16dp</dimen>
 
     <dimen name="card_view_margin">4dp</dimen>
-    <dimen name="fab_elevation">14dp</dimen>
+    <dimen name="fab_elevation">6dp</dimen>
     <dimen name="fab_press_translation_z">14dp</dimen>
-    <dimen name="article_elevation">4dp</dimen>
+    <dimen name="article_elevation">0dp</dimen>
     <dimen name="fab_margin">24dp</dimen>
     <dimen name="action_bar_size_phone">16dp</dimen>
     <dimen name="list_item_text_view_padding">16dp</dimen>
@@ -19,8 +19,9 @@
     <dimen name="recycler_view_padding_bottom">28dp</dimen>
     <dimen name="floating_action_button_size">56dp</dimen>
     <dimen name="frame_layout_height_phone">72dp</dimen>
-    <dimen name="fragment_linear_layout_elevation">4dp</dimen>
+    <dimen name="fragment_linear_layout_elevation">0dp</dimen>
     <dimen name="photo_list_item_max_depth">100dp</dimen>
     <dimen name="toobar_height">64dp</dimen>
+    <dimen name="appbar_elevation">4dp</dimen>
 
 </resources>
